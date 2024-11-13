@@ -3,9 +3,9 @@ import pickle
 import numpy as np
 
 # Load trained model (assuming your trained model is saved as 'model.pkl')
-model_path = 'model.pkl'
+# model_path = 'model.pkl'
 # Adjust this path if needed
-with open(model_path, 'rb') as file:
+with open('./model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Streamlit app title and description
