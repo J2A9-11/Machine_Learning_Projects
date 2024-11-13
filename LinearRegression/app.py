@@ -29,7 +29,6 @@ TAX = st.number_input("TAX: Full-value property-tax rate per $10,000", min_value
 PTRATIO = st.number_input("PTRATIO: Pupil-teacher ratio by town", min_value=0.0, step=0.1, format="%.2f")
 B = st.number_input("B: 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town", min_value=0.0, step=0.1, format="%.2f")
 LSTAT = st.number_input("LSTAT: % lower status of the population", min_value=0.0, step=0.1, format="%.2f")
-# MEDV = st.number_input("MEDV: Median value of owner-occupied homes in $1000's", min_value=0.0, step=0.1, format="%.2f")
 
 # Make prediction
 if st.button("Predict"):
